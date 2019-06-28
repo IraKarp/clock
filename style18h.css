@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    width: 630px;
+    height: 630px;
+    background-image: url(clock.png);
+}
+#hourArr{
+    height: 210px;
+    position: absolute;
+    left: 305px;
+    top: 124px;
+    transform-origin: 12px 190px;
+}
+#hourArr:hover{
+    transform: rotate(0deg);
+}
+#minuteArr{
+    height: 294px;
+    position: absolute;
+    left: 304px;
+    top: 109px;
+    transform-origin: 13px 204px;
+}
+#minuteArr:hover{
+    transform: rotate(0deg);
+}
+#secondArr{
+    height: 290px;
+    position: fixed;
+    left: 309px;
+    top: 66px;
+    transform-origin: 8px 247px;
+}
+#secondArr:hover{
+    transform: rotate(0deg);
+    
+}
